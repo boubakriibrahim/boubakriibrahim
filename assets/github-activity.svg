@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity and engineering signal</title>
+  <desc id="desc">A reliable local GitHub activity card for Ibrahim Boubakri showing profile focus, open-source work, and delivery automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#10182b"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="390" rx="26" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="334" rx="22" fill="#0a1220" stroke="#253a5d" stroke-width="1.5"/>
+
+  <circle cx="55" cy="55" r="6" fill="#ff6b6b"/>
+  <circle cx="77" cy="55" r="6" fill="#ffd166"/>
+  <circle cx="99" cy="55" r="6" fill="#45d483"/>
+  <text x="125" y="61" fill="#89a2c6" font-family="monospace" font-size="16">github://boubakriibrahim/activity</text>
+  <line x1="48" y1="80" x2="1152" y2="80" stroke="#223653"/>
+
+  <text x="55" y="116" fill="#58a6ff" font-family="monospace" font-weight="700" font-size="17">PUBLIC ENGINEERING PROFILE</text>
+  <text x="55" y="151" fill="#f0f6fc" font-family="Arial, sans-serif" font-weight="700" font-size="30">@boubakriibrahim</text>
+  <text x="55" y="181" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="17">Full-Stack / Backend / DevOps / AI Integration</text>
+
+  <g transform="translate(55 212)">
+    <rect width="335" height="105" rx="16" fill="#0d1829" stroke="#3b82f6" stroke-opacity="0.65"/>
+    <text x="20" y="30" fill="#74c0ff" font-family="monospace" font-size="14" font-weight="700">OPEN SOURCE</text>
+    <text x="20" y="60" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="20" font-weight="700">PalletDataGenerator</text>
+    <text x="20" y="86" fill="#93a6c1" font-family="Arial, sans-serif" font-size="14">Python / Blender / CV / Docker / CI</text>
+  </g>
+
+  <g transform="translate(414 212)">
+    <rect width="335" height="105" rx="16" fill="#0d1829" stroke="#8b5cf6" stroke-opacity="0.65"/>
+    <text x="20" y="30" fill="#b58cff" font-family="monospace" font-size="14" font-weight="700">DELIVERY</text>
+    <text x="20" y="60" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Automate the path to prod</text>
+    <text x="20" y="86" fill="#93a6c1" font-family="Arial, sans-serif" font-size="14">Containers / CI/CD / Linux / Observability</text>
+  </g>
+
+  <g transform="translate(773 212)">
+    <rect width="335" height="105" rx="16" fill="#0d1829" stroke="#2dd4bf" stroke-opacity="0.65"/>
+    <text x="20" y="30" fill="#55dbc8" font-family="monospace" font-size="14" font-weight="700">INTEGRATION</text>
+    <text x="20" y="60" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="20" font-weight="700">AI where it adds value</text>
+    <text x="20" y="86" fill="#93a6c1" font-family="Arial, sans-serif" font-size="14">LLM / RAG / MCP / Tool Calling / Vision</text>
+  </g>
+
+  <rect x="55" y="338" width="1053" height="4" rx="2" fill="url(#bar)"/>
+  <text x="55" y="356" fill="#758aa8" font-family="monospace" font-size="12">BUILD -> SHIP -> AUTOMATE -> INTEGRATE</text>
+  <text x="1108" y="356" fill="#758aa8" text-anchor="end" font-family="monospace" font-size="12">QUEBEC, CANADA</text>
+</svg>

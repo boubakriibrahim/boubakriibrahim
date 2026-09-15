@@ -181,19 +181,14 @@ idea
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=boubakriibrahim&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&title_color=58A6FF&icon_color=8B5CF6&text_color=8B949E" alt="Ibrahim's GitHub stats" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=boubakriibrahim&layout=compact&hide_border=true&theme=transparent&title_color=58A6FF&text_color=8B949E&langs_count=8" alt="Top languages" />
+<img src="./assets/github-activity.svg" alt="GitHub activity and engineering signal" width="100%" />
 
 <br/><br/>
 
-<!-- The workflow in .github/workflows/snake.yml generates these assets on the output branch. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/boubakriibrahim/boubakriibrahim/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/boubakriibrahim/boubakriibrahim/output/github-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/boubakriibrahim/boubakriibrahim/output/github-snake.svg" />
-</picture>
+[**View GitHub profile**](https://github.com/boubakriibrahim) &nbsp;·&nbsp; [**PalletDataGenerator**](https://github.com/boubakriibrahim/PalletDataGenerator) &nbsp;·&nbsp; [**PyPI package**](https://pypi.org/project/palletdatagenerator/)
 
 </div>
+
 
 ---
 

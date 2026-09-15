@@ -1,18 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b14"/><stop offset="1" stop-color="#10182b"/></linearGradient>
-  <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#52bcff"/><stop offset="1" stop-color="#685cff"/></linearGradient>
-  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#46d9c0"/><stop offset="1" stop-color="#52bcff"/></linearGradient>
-  <linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ae70ff"/><stop offset="1" stop-color="#52bcff"/></linearGradient>
-  <linearGradient id="d" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff9954"/><stop offset="1" stop-color="#ae70ff"/></linearGradient>
-  <filter id="shadow"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity=".28"/></filter>
-</defs>
-<rect width="1200" height="260" rx="26" fill="url(#bg)"/>
-<text x="44" y="42" fill="#8fcfff" font-family="monospace" font-weight="700" font-size="19">ENGINEERING PILLARS</text>
-<g filter="url(#shadow)">
-  <g transform="translate(42 65)"><rect width="260" height="155" rx="20" fill="#0c1525" stroke="#52bcff" stroke-opacity=".75"/><rect width="6" height="155" rx="3" fill="url(#a)"/><text x="28" y="45" fill="#eef6ff" font-family="Arial" font-weight="700" font-size="24">Full-Stack</text><text x="28" y="76" fill="#9fb1ca" font-family="Arial" font-size="16">React • Node.js • APIs</text><text x="28" y="101" fill="#9fb1ca" font-family="Arial" font-size="16">WebSocket • Data</text><text x="28" y="130" fill="#66c7ff" font-family="monospace" font-size="14">build the product</text></g>
-  <g transform="translate(326 65)"><rect width="260" height="155" rx="20" fill="#0c1525" stroke="#46d9c0" stroke-opacity=".75"/><rect width="6" height="155" rx="3" fill="url(#b)"/><text x="28" y="45" fill="#eef6ff" font-family="Arial" font-weight="700" font-size="24">Backend</text><text x="28" y="76" fill="#9fb1ca" font-family="Arial" font-size="16">Python • FastAPI</text><text x="28" y="101" fill="#9fb1ca" font-family="Arial" font-size="16">Services • Architecture</text><text x="28" y="130" fill="#59ddc6" font-family="monospace" font-size="14">design the system</text></g>
-  <g transform="translate(610 65)"><rect width="260" height="155" rx="20" fill="#0c1525" stroke="#ae70ff" stroke-opacity=".75"/><rect width="6" height="155" rx="3" fill="url(#c)"/><text x="28" y="45" fill="#eef6ff" font-family="Arial" font-weight="700" font-size="24">DevOps</text><text x="28" y="76" fill="#9fb1ca" font-family="Arial" font-size="16">Docker • Kubernetes</text><text x="28" y="101" fill="#9fb1ca" font-family="Arial" font-size="16">CI/CD • Linux</text><text x="28" y="130" fill="#b986ff" font-family="monospace" font-size="14">ship & operate</text></g>
-  <g transform="translate(894 65)"><rect width="260" height="155" rx="20" fill="#0c1525" stroke="#ff9954" stroke-opacity=".75"/><rect width="6" height="155" rx="3" fill="url(#d)"/><text x="28" y="45" fill="#eef6ff" font-family="Arial" font-weight="700" font-size="24">AI Integration</text><text x="28" y="76" fill="#9fb1ca" font-family="Arial" font-size="16">LLM • RAG • MCP</text><text x="28" y="101" fill="#9fb1ca" font-family="Arial" font-size="16">Tool Calling • Vision</text><text x="28" y="130" fill="#ffab6d" font-family="monospace" font-size="14">add intelligence</text></g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering pillars</title>
+  <desc id="desc">Full-Stack, Backend, DevOps, and AI Integration engineering pillars.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#10182b"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#52bcff"/>
+      <stop offset="1" stop-color="#685cff"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#46d9c0"/>
+      <stop offset="1" stop-color="#52bcff"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ae70ff"/>
+      <stop offset="1" stop-color="#52bcff"/>
+    </linearGradient>
+    <linearGradient id="accent4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9954"/>
+      <stop offset="1" stop-color="#ae70ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="26" fill="url(#bg)"/>
+  <text x="44" y="43" fill="#8fcfff" font-family="monospace" font-weight="700" font-size="19">ENGINEERING PILLARS / END-TO-END</text>
+  <line x1="44" y1="54" x2="1156" y2="54" stroke="#1d2f4d" stroke-width="1"/>
+
+  <g transform="translate(42 72)">
+    <rect width="260" height="150" rx="18" fill="#0c1525" stroke="#52bcff" stroke-opacity="0.72" stroke-width="1.5"/>
+    <rect width="6" height="150" rx="3" fill="url(#accent1)"/>
+    <circle cx="232" cy="25" r="6" fill="#52bcff" fill-opacity="0.9"/>
+    <text x="28" y="43" fill="#eef6ff" font-family="Arial, sans-serif" font-weight="700" font-size="24">Full-Stack</text>
+    <text x="28" y="75" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="16">React / Node.js / APIs</text>
+    <text x="28" y="100" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="16">WebSocket / Data</text>
+    <text x="28" y="130" fill="#66c7ff" font-family="monospace" font-size="14">build the product</text>
+  </g>
+
+  <g transform="translate(326 72)">
+    <rect width="260" height="150" rx="18" fill="#0c1525" stroke="#46d9c0" stroke-opacity="0.72" stroke-width="1.5"/>
+    <rect width="6" height="150" rx="3" fill="url(#accent2)"/>
+    <circle cx="232" cy="25" r="6" fill="#46d9c0" fill-opacity="0.9"/>
+    <text x="28" y="43" fill="#eef6ff" font-family="Arial, sans-serif" font-weight="700" font-size="24">Backend</text>
+    <text x="28" y="75" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="16">Python / FastAPI</text>
+    <text x="28" y="100" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="16">Services / Architecture</text>
+    <text x="28" y="130" fill="#59ddc6" font-family="monospace" font-size="14">design the system</text>
+  </g>
+
+  <g transform="translate(610 72)">
+    <rect width="260" height="150" rx="18" fill="#0c1525" stroke="#ae70ff" stroke-opacity="0.72" stroke-width="1.5"/>
+    <rect width="6" height="150" rx="3" fill="url(#accent3)"/>
+    <circle cx="232" cy="25" r="6" fill="#ae70ff" fill-opacity="0.9"/>
+    <text x="28" y="43" fill="#eef6ff" font-family="Arial, sans-serif" font-weight="700" font-size="24">DevOps</text>
+    <text x="28" y="75" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="16">Docker / Kubernetes</text>
+    <text x="28" y="100" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="16">CI/CD / Linux</text>
+    <text x="28" y="130" fill="#b986ff" font-family="monospace" font-size="14">ship &amp; operate</text>
+  </g>
+
+  <g transform="translate(894 72)">
+    <rect width="260" height="150" rx="18" fill="#0c1525" stroke="#ff9954" stroke-opacity="0.72" stroke-width="1.5"/>
+    <rect width="6" height="150" rx="3" fill="url(#accent4)"/>
+    <circle cx="232" cy="25" r="6" fill="#ff9954" fill-opacity="0.9"/>
+    <text x="28" y="43" fill="#eef6ff" font-family="Arial, sans-serif" font-weight="700" font-size="24">AI Integration</text>
+    <text x="28" y="75" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="16">LLM / RAG / MCP</text>
+    <text x="28" y="100" fill="#9fb1ca" font-family="Arial, sans-serif" font-size="16">Tool Calling / Vision</text>
+    <text x="28" y="130" fill="#ffab6d" font-family="monospace" font-size="14">add intelligence</text>
+  </g>
 </svg>
