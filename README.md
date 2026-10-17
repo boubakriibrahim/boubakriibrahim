@@ -68,7 +68,7 @@ Reproducible environments and delivery pipelines that move software from commit 
 ### ✨ AI-Enabled Software
 Modern AI capabilities integrated **inside real software systems** — not isolated demos — with workflow orchestration, response validation, and application-level tooling.
 
-**Focus:** LLM integration · RAG · MCP · Tool/function calling · AI automation · PyTorch/OpenCV
+**Focus:** LLM integration · RAG · Agentic workflows · LangGraph · pgvector · Guardrails · MCP · Tool/function calling · PyTorch/OpenCV
 
 </td>
 </tr>
@@ -110,6 +110,11 @@ Modern AI capabilities integrated **inside real software systems** — not isola
 
 <img src="https://img.shields.io/badge/LLM%20Integration-6E56CF?style=flat-square&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square" />
+<img src="https://img.shields.io/badge/Agentic%20Workflows-8B5CF6?style=flat-square" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
+<img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Laya%20Guard%20Model-6D28D9?style=flat-square" />
+<img src="https://img.shields.io/badge/Guardrails-E11D48?style=flat-square" />
 <img src="https://img.shields.io/badge/MCP-FF8A3D?style=flat-square" />
 <img src="https://img.shields.io/badge/Tool%20Calling-0EA5E9?style=flat-square" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
@@ -134,7 +139,7 @@ A modular Python library for generating synthetic pallet and warehouse datasets 
 
 An AI-assisted service desk that cites its sources, blocks unsafe requests before they reach a model, and never writes a work order without a person's approval. Each investigation runs as a LangGraph pipeline — request guard, permitted retrieval over PostgreSQL + pgvector, model routing by data sensitivity, a citation-checked brief, and a work-order proposal that a manager must approve before it is saved.
 
-`Next.js` · `React` · `TypeScript` · `FastAPI` · `PostgreSQL` · `pgvector` · `LangGraph` · `Docker Compose`
+`Next.js` · `React` · `TypeScript` · `FastAPI` · `PostgreSQL` · `pgvector` · `LangGraph` · `RAG` · `Laya guard model` · `Agentic pipeline` · `Guardrails` · `Docker Compose`
 
 https://github.com/user-attachments/assets/b993ec59-c925-414a-9ab3-eb1c8b4ab966
 
@@ -214,7 +219,9 @@ primary_focus:
   - DevOps, CI/CD & Platform Delivery
 secondary_edge:
   - AI / LLM Integration
+  - RAG & Agentic Workflows
   - Automation & Tool Calling
+  - Guardrails & Model Safety
   - Computer Vision & Robotics
 engineering_style:
   - modular
