@@ -130,6 +130,18 @@ A modular Python library for generating synthetic pallet and warehouse datasets 
 [![PyPI](https://img.shields.io/pypi/v/palletdatagenerator?style=flat-square&logo=pypi&logoColor=white&label=PyPI)](https://pypi.org/project/palletdatagenerator/)
 [![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/boubakriibrahim/PalletDataGenerator)
 
+### 🛎️ [`Service Desk`](https://github.com/boubakriibrahim/service-desk) — Guarded AI for field service teams
+
+An AI-assisted service desk that cites its sources, blocks unsafe requests before they reach a model, and never writes a work order without a person's approval. Each investigation runs as a LangGraph pipeline — request guard, permitted retrieval over PostgreSQL + pgvector, model routing by data sensitivity, a citation-checked brief, and a work-order proposal that a manager must approve before it is saved.
+
+`Next.js` · `React` · `TypeScript` · `FastAPI` · `PostgreSQL` · `pgvector` · `LangGraph` · `Docker Compose`
+
+https://github.com/user-attachments/assets/b993ec59-c925-414a-9ab3-eb1c8b4ab966
+
+<sub>Launch film · 1:18 — every value on screen comes from a real run of the app.</sub>
+
+[![Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/boubakriibrahim/service-desk)
+
 <details>
 <summary><b>See more engineering highlights</b></summary>
 <br/>
